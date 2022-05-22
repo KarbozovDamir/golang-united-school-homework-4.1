@@ -1,12 +1,14 @@
 package reverse_string
 
+// package main
+
 func ReverseString(input string) (output string) {
-	// solution goes here
-	// var output string
+
+	strBytes := make([]byte, 0, len(input))
 	for i := len(input) - 1; i >= 0; i-- {
-		output += string(input[i])
+		strBytes = append(strBytes, input[i])
 	}
-	return output
+	return string(strBytes)
 }
 
 // func main() {
