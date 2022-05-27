@@ -1,7 +1,6 @@
-// package reverse_string
-package main
+package reverse_string
 
-import "fmt"
+// package main
 
 // package main
 
@@ -15,8 +14,8 @@ func ReverseString(input string) (output string) {
 	return string(strRune)
 }
 
-func main() {
-	s := "Hello World!"
-	s = ReverseString(s)
-	fmt.Println(s)
-}
+// func main() {
+// 	s := "Hello World!"
+// 	s = ReverseString(s)
+// 	fmt.Println(s)
+// }
